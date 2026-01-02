@@ -1,26 +1,31 @@
 {
-  "breadcrumbs.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "off",
-  "git.confirmSync": false,
-  "git.openRepositoryInParentFolders": "never",
-  "telemetry.telemetryLevel": "off",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
-  "workbench.iconTheme": "material-icon-theme",
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit",
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "python.languageServer": "Default",
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
 }
